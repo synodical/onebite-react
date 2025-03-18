@@ -1,14 +1,13 @@
 import "./App.css";
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import { useState } from "react";
+import Bulb from "./components/Bulb";
+
 function App() {
   // html 태그를 반환하는 함수. 컴포넌트
   // 부모 컴포넌트
   return (
     <>
-      <Header></Header>
-      <h1>안녕 리액트!</h1>
+      <Bulb></Bulb>
     </>
   );
 }
